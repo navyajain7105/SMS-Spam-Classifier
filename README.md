@@ -10,10 +10,15 @@ The project includes two main parts:
 
 ## ✨ Features<br>
   ⦿ High Accuracy: Achieves 98% accuracy and 1.0 precision on the test set.
+  
   ⦿ Ensemble Model: Uses a VotingClassifier (SVC, Multinomial Naive Bayes, Extra Trees) for robust and reliable predictions.
+  
   ⦿ Interactive UI: The Streamlit app provides a simple interface to enter any message and get an instant classification.
+  
   ⦿ NLP Pipeline: Implements a comprehensive text preprocessing pipeline using NLTK for cleaning and feature engineering.
+  
   ⦿ Data-Driven: Includes detailed EDA with visualizations like word clouds and correlation heatmaps to understand the dataset.
+  
 
 ## 📁 Repository Structure
 <p>.<br>
