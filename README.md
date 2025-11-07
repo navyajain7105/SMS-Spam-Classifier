@@ -1,4 +1,4 @@
-## Email & SMS Spam Classifier
+# Email & SMS Spam Classifier
 This project is a machine learning model built to classify messages as "Spam" or "Ham" (not spam). It uses a soft-voting ensemble of three classifiers trained on TF-IDF vectorized text data.<br><br>
 
 The project includes two main parts:
@@ -8,7 +8,7 @@ The project includes two main parts:
 -->app.py: A lightweight, interactive web application built with Streamlit that deploys the trained model for real-time predictions.
 <br><br>
 
-# ✨ Features<br><br>
+## ✨ Features<br>
 High Accuracy: Achieves 98% accuracy and 1.0 precision on the test set.
 
 Ensemble Model: Uses a VotingClassifier (SVC, Multinomial Naive Bayes, Extra Trees) for robust and reliable predictions.
@@ -19,8 +19,8 @@ NLP Pipeline: Implements a comprehensive text preprocessing pipeline using NLTK 
 
 Data-Driven: Includes detailed EDA with visualizations like word clouds and correlation heatmaps to understand the dataset.
 
-# 📁 Repository Structure
-.
+## 📁 Repository Structure
+.<br>
 ├── app.py                  # The Streamlit web application<br>
 ├── Email Spam Classifier.ipynb  # Jupyter Notebook for analysis and model training<br>
 ├── model.pkl               # Pickled file for the trained VotingClassifier<br>
@@ -29,7 +29,7 @@ Data-Driven: Includes detailed EDA with visualizations like word clouds and corr
 ├── requirements.txt        # Python dependencies<br>
 └── README.md               # You are here!<br>
 
-# 🛠️ Workflow & Methodology
+## 🛠️ Workflow & Methodology
 1. Data Cleaning & EDA
 
 2. Text Preprocessing
@@ -38,7 +38,7 @@ Data-Driven: Includes detailed EDA with visualizations like word clouds and corr
 
 4. Web Application
 
-# 🔧 How to Run Locally
+## 🔧 How to Run Locally
 1. Clone the Repository
 ```
 git clone https://github.com/navyajain7105/SMS-Spam-Classifier.git
