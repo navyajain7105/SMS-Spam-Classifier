@@ -21,7 +21,7 @@ Data-Driven: Includes detailed EDA with visualizations like word clouds and corr
 
 📁 Repository Structure
 .
-├── app.py                  # The Streamlit web application
+├── app.py                  # The Streamlit web application<br>
 ├── Email Spam Classifier.ipynb  # Jupyter Notebook for analysis and model training
 ├── model.pkl               # Pickled file for the trained VotingClassifier
 ├── vectorizer.pkl          # Pickled file for the TfidfVectorizer
