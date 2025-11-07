@@ -3,11 +3,11 @@ This project is a machine learning model built to classify messages as "Spam" or
 
 The project includes two main parts:
 
-Email Spam Classifier.ipynb: A Jupyter Notebook detailing the complete end-to-end workflow, from data cleaning and exploratory data analysis (EDA) to model training and evaluation.
+-->Email Spam Classifier.ipynb: A Jupyter Notebook detailing the complete end-to-end workflow, from data cleaning and exploratory data analysis (EDA) to model training and evaluation.
 
-app.py: A lightweight, interactive web application built with Streamlit that deploys the trained model for real-time predictions.
+-->app.py: A lightweight, interactive web application built with Streamlit that deploys the trained model for real-time predictions.
 
-🚀 App Demo
+
 ✨ Features
 High Accuracy: Achieves 98% accuracy and 1.0 precision on the test set.
 
@@ -40,25 +40,20 @@ Data-Driven: Includes detailed EDA with visualizations like word clouds and corr
 
 🔧 How to Run Locally
 1. Clone the Repository
-Bash
-
+```
 git clone https://github.com/navyajain7105/SMS-Spam-Classifier.git
-
+```
 2. Create a Virtual Environment (Recommended)
-Bash
-
+```
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
+```
 3. Install Dependencies
-Bash
-
+```
 pip install -r requirements.txt
-
+```
 4. Run the Streamlit App
-The app will automatically download the required NLTK data (stopwords and punkt) on its first run.
-
-Bash
-
+```
 streamlit run app.py
-5.
+```
+
