@@ -9,25 +9,21 @@ The project includes two main parts:
 <br><br>
 
 ## ✨ Features<br>
-&nbsp;⦿ High Accuracy: Achieves 98% accuracy and 1.0 precision on the test set.
-
-&nbsp;⦿ Ensemble Model: Uses a VotingClassifier (SVC, Multinomial Naive Bayes, Extra Trees) for robust and reliable predictions.
-
-&nbsp;⦿ Interactive UI: The Streamlit app provides a simple interface to enter any message and get an instant classification.
-
-&nbsp;⦿ NLP Pipeline: Implements a comprehensive text preprocessing pipeline using NLTK for cleaning and feature engineering.
-
-&nbsp;⦿ Data-Driven: Includes detailed EDA with visualizations like word clouds and correlation heatmaps to understand the dataset.
+  ⦿ High Accuracy: Achieves 98% accuracy and 1.0 precision on the test set.
+  ⦿ Ensemble Model: Uses a VotingClassifier (SVC, Multinomial Naive Bayes, Extra Trees) for robust and reliable predictions.
+  ⦿ Interactive UI: The Streamlit app provides a simple interface to enter any message and get an instant classification.
+  ⦿ NLP Pipeline: Implements a comprehensive text preprocessing pipeline using NLTK for cleaning and feature engineering.
+  ⦿ Data-Driven: Includes detailed EDA with visualizations like word clouds and correlation heatmaps to understand the dataset.
 
 ## 📁 Repository Structure
-.<br>
-├── app.py                &nbsp;&nbsp;  # The Streamlit web application<br>
-├── Email Spam Classifier.ipynb  &nbsp;&nbsp;# Jupyter Notebook for analysis and model training<br>
-├── model.pkl               &nbsp;&nbsp;# Pickled file for the trained VotingClassifier<br>
-├── vectorizer.pkl         &nbsp;&nbsp; # Pickled file for the TfidfVectorizer<br>
-├── mail_data.csv         &nbsp;&nbsp;  # The raw dataset used for training<br>
-├── requirements.txt      &nbsp;&nbsp;  # Python dependencies<br>
-└── README.md             &nbsp;&nbsp;  # You are here!<br>
+<p>.<br>
+├── app.py                            # The Streamlit web application<br>
+├── Email Spam Classifier.ipynb       # Jupyter Notebook for analysis and model training<br>
+├── model.pkl                         # Pickled file for the trained VotingClassifier<br>
+├── vectorizer.pkl                    # Pickled file for the TfidfVectorizer<br>
+├── mail_data.csv                     # The raw dataset used for training<br>
+├── requirements.txt                  # Python dependencies<br>
+└── README.md                         # You are here!<br></p>
 
 ## 🛠️ Workflow & Methodology
 1. Data Cleaning & EDA
